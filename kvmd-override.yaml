@@ -1,0 +1,9 @@
+kvmd:
+    streamer:
+        forever: true
+        cmd_append:
+            - "--format=rgb24"
+            - "--format-swap-rgb"
+            - "--encoder=cpu"
+            - "--v4p"
+            - "--v4p-port-name=HDMI-A-1"
